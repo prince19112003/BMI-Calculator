@@ -230,6 +230,7 @@ input:focus {
   padding: 0;
   margin: 0;
   overflow-x: hidden; /* ✅ Prevent horizontal scroll */
+  overflow-y: hidden; /* ✅ Prevent horizontal scroll */
 }
 .container {
   background: #fff;
@@ -243,7 +244,7 @@ input:focus {
 }
 @media screen and (max-width: 480px) {
   .container {
-    padding: 1rem 1rem;
+    /* padding: 1rem 1rem; */
     width: 90%;
     max-width: 100%;
   }
